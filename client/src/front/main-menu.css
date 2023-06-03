@@ -1,0 +1,228 @@
+body{
+  margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font: rgb(253, 253, 253);
+    background-color: #333;
+}
+
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 230px;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+nav{
+  padding-top:10px ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+    font-size: 20px;
+}
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(214, 142, 28);
+}
+.left{
+    grid-row-start:1;
+    grid-column-start: 2;
+    grid-row-end:1;
+    grid-column-end: 2;
+}
+.right{
+  grid-row-start:1;
+  grid-column-start: 3;
+  grid-row-end:1;
+  grid-column-end: 5;
+}
+.right a{
+    margin-right: 15px;
+}
+.page{
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.intro{
+  font-size: 18px;
+    color: rgb(253, 253, 253);
+    grid-row-start:1;
+    grid-column-start: 2;
+    grid-row-end:1;
+    grid-column-end: 2;
+    
+}
+.intro-right{
+  grid-row-start:1;
+    grid-column-start: 3;
+    grid-row-end:1;
+    grid-column-end: 3;
+}
+
+.curved{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-start:2;
+    grid-column-start: 1;
+    grid-row-end:3;
+    grid-column-end: 5;
+    color: white;
+  text-align: center;
+  place-items: center;
+}
+
+.curved h1{
+    grid-row-start:1;
+    grid-column-start: 2;
+    grid-row-end:2;
+    grid-column-end: 4;
+  color: white;
+  font: 3em Arial, Helvetica, sans-serif;
+}
+.curved p {
+  z-index: 1;
+  grid-row-start:2;
+    grid-column-start: 3;
+    grid-row-end:3;
+    grid-column-end: 3;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.curved img{
+  z-index: 1;
+  width: 400px;
+
+  grid-row-start:2;
+  grid-column-start: 2;
+  grid-row-end:3;
+  grid-column-end: 2;
+}
+.curved svg{
+  grid-row-start:1;
+  grid-column-start: 1;
+  grid-row-end:5;
+  grid-column-end: 5;
+}
+.curve-head{
+
+  background-color:#ff5500;
+    grid-row-start:3;
+    grid-column-start: 1;
+    grid-row-end:3;
+    grid-column-end: 5;
+    font-size: 18px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.curve-head h1{
+  grid-row-start:1;
+    grid-column-start: 2;
+    grid-row-end:1;
+    grid-column-end: 4;
+
+}
+.curve-head p{
+  z-index: 1;
+  grid-row-start:2;
+    grid-column-start: 2;
+    grid-row-end:3;
+    grid-column-end: 2;
+
+}
+.curve-head img{
+  z-index: 1;
+  grid-row-start:2;
+  grid-column-start: 3;
+  grid-row-end:3;
+  grid-column-end:4;
+  height: 250px;
+}
+.curve-head svg{
+  transform: scaleX(-1);
+  
+  grid-row-start:2;
+  grid-column-start: 1;
+  grid-row-end:3;
+  grid-column-end:5;
+}
+.eazy{
+  font-size: 18px;
+  color: rgb(253, 253, 253);
+  grid-row-start:4;
+  grid-column-start: 3;
+  grid-row-end:5;
+  grid-column-end: 4;
+}
+.eazy-photo{
+  font-size: 18px;
+  color: rgb(253, 253, 253);
+  grid-row-start:4;
+  grid-column-start: 2;
+  grid-row-end:5;
+  grid-column-end: 2;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(40, 39, 39);
+  color: white;
+}

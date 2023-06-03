@@ -1,0 +1,11 @@
+{
+    "transport": {
+        "service": "gmail",
+        "auth" : {
+            "user": "kirilandryuschenko@gmail.com",
+            "pass": "oogkyzhazvueghax"
+        }
+    },
+    "PORT": 8888,
+    "from": "kirilandryuschenko@gmail.com"
+}

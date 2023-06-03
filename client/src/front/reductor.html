@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="reductor.css" />
+    <title>Reductor</title>
+</head>
+<body>
+    <nav class="menu menu-left">
+
+        <ul>
+            <li>
+                <div class="menu dropdown">
+                    <button class="dropbtn">Menu 
+                    <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                    <div class="dropdown-content">
+                    <a href="#"><i class="bi bi-card-image"></i> Create a Graphic</a>
+                    <a href="#"><i class="bi bi-folder"></i> Saved Graphics</a>
+                    </div>            
+                </div>
+            </li>
+            <li>
+                <a href="#home">Change title <i class="bi bi-pencil"></i></a>
+            </li>
+            <li>
+                <div class="project-size">
+                    <span>1200px × 628px</span>
+                    <button class="btn resize">Resize</button>
+                </div>
+            </li>
+            <li>
+                <div class="dup-button">
+                <button class="btn duplicate">Duplicate</button>
+                </div>
+            </li>
+        </ul>
+        </div>
+    
+    </nav>
+    <nav class="menu menu-right">
+        <ul>
+            <li>
+                <div class="menu dropdown">
+                    <button class="dropbtn">Help 
+                    <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                    <div class="dropdown-content">
+                    <a href="#"><i class="bi bi-envelope-open"></i> Contact us</a>
+                    <a href="#"><i class="bi bi-camera-video"></i> Video tutorial</a>
+                    </div>            
+                </div>
+            </li>
+            <li>
+                <div class="menu dropdown">
+                    <button class="dropbtn">My accaunt 
+                    <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                    <div class="dropdown-content">
+                    <a href="#"><i class="bi bi-briefcase-fill"></i> Prifile</a>
+                    <a href="#"><i class="bi bi-share"></i> Share prifile</a>
+                    <a href="#"><i class="bi bi-box-arrow-left"></i> Log out</a>
+                    </div>            
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+<div class="graphic-editor">
+    <div class="tabble left-tab">
+        <div class="btn-group">
+            <button type="button" id="bkgrnd"><i class="bi bi-card-image"></i><br>Bkgrnd</button>
+            <button type="button" id="effect"><i class="bi bi-magic"></i><br>Effects</button>
+            <button type="button" id="btn-text"><i class="bi bi-file-earmark-font"></i><br>Text</button>
+            <button type="button" id="graphic"><i class="bi bi-emoji-smile"></i><br>Graphic</button>
+            <button type="button" id="shapes"><i class="bi bi-circle-square"></i><br>Shapes</button>
+        </div>    
+        <div class="scroll-container">
+            <img>
+
+        </div>
+    </div>
+
+
+    <div class="sub-menu">
+        <div class="btn-group2 left-group">
+            <button type="button" id="bkgrnd"><i class="bi bi-arrow-counterclockwise"></i></i><br>Undo</button>
+            <button type="button" id="bkgrnd"><i class="bi bi-arrow-clockwise"></i><br>Redo</button>
+            <button type="button" id="bkgrnd"><i class="bi bi-files"></i><br>Duplicate layer</button>
+            <button type="button" id="bkgrnd"><i class="bi bi-layer-backward"></i><br>Layer-down</button>
+            <button type="button" id="bkgrnd"><i class="bi bi-layer-forward"></i></i><br>Layer-up</button>
+            <button type="button" id="bkgrnd"><i class="bi bi-trash"></i><br>Delete</button>
+        </div>
+        <div class="btn-group2 right-group">
+            <button type="button" id="bkgrnd"><i class="bi bi-card-image"></i><br>Save</button>
+            <button type="button" id="bkgrnd"><i class="bi bi-share"></i><br>Share</button>
+            <button type="button" id="bkgrnd"><i class="bi bi-cloud-arrow-down-fill"></i><br>Download</button>
+        </div>
+    </div>
+    <div class="main canvas-wrapper">
+        <canvas id="myCanvas" width="900" height="400" style="border:1px solid #000000;">
+        </canvas>
+    
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
